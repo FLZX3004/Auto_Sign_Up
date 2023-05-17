@@ -3,15 +3,13 @@
 Auto-ShiXiBeiAn
 </h1>
 <p align="center">
-🥰实习备案自动打卡解决方案🥰
+🥰河南实习备案自动打卡系统🥰
 </p>
 <p align="center">
 支持多用户、自定义位置与时间、微信消息推送
 </br>
 </p>
-</br>
-<a target="_blank" href="https://b23.tv/hsaDxKf">视频教程</a>
-</div>
+</br></div>
 </br>
 
 
@@ -75,12 +73,7 @@ Auto-ShiXiBeiAn
 </br>
 
 1.点击Star后Fork本仓库🤪
-![1.png](https://tc.xuanran.cc/2022/12/01/9b1d336235e28.png)
-![2.png](https://tc.xuanran.cc/2022/12/01/2c1c3b427a14a.png)
-</br>
 2.准备配置文件🤔
-
-如果想同时打卡多个用户,请再添加一个数据体就好了([如果还不理解点我](https://github.com/XuanRanDev/Auto-ShiXiBeiAn/wiki))
 
 **注意：配置文件模板下方有配置含义，请务必参照配置含义填写**
 ```json
@@ -129,22 +122,7 @@ Auto-ShiXiBeiAn
 
 Name填USERS
 
-Secret填改好的配置文件
-
-![3.png](https://tc.xuanran.cc/2022/11/13/2143b390f8199.png)
-![5.png](https://tc.xuanran.cc/2022/12/01/36cadab52b21b.png)
-
-4.运行测试
-
-**以下部分图片复用了工学云自动打卡，除左上角forked from xxxx外与视频教程无其他区别**
-![5.png](https://tc.xuanran.cc/2022/11/13/500e789b3dfec.png)
-![6.png](https://tc.xuanran.cc/2022/11/13/1366e5e0ced97.png)
-![7.png](https://tc.xuanran.cc/2022/11/13/2a2b4b7e01884.png)
-![8.png](https://tc.xuanran.cc/2022/11/13/bd1cd3218f77a.png)
-![9.png](https://tc.xuanran.cc/2022/11/13/33c6cec2e37ec.png)
-![4.png](https://tc.xuanran.cc/2022/12/01/735c10732d2e0.png)
-</br></br></br></br>
-
+Secrets
 至此，自动打卡将会在每天8点左右自动运行打卡。😉
 
 
@@ -189,9 +167,6 @@ pip install pycryptodome
 </br>
 1.编辑sign.yml文件，找到图中我圈出的部分
 
-![image-20221021093411661](https://tc.xuanran.cc/2022/11/10/5d81dcc0bff46.png)
-
-</br>
 
 2.编辑表达式
 
@@ -218,10 +193,7 @@ GitHub的cron表达式不支持精准到秒，所以从最左边开始，分别�
 
 ## 赞助支持
 
-如果此仓库帮助了你学到了新知识，你可以帮我买杯可乐，但如果你使用此项目产生任何盈利，请不要支持。
-
-![赞助支持](https://tc.xuanran.cc/2022/11/20/b8f5ddc944634.png)
-
+如果此仓库帮助了你学到了新知识，你可以帮我买杯可乐，但如果你使用此项目产生任何盈利
 
 ## 常见问题
 
@@ -236,20 +208,9 @@ GitHub的cron表达式不支持精准到秒，所以从最左边开始，分别�
 Settings-Secrets-Actions-下面Repository secrets有个USERS，点击小箭头编辑，里面没内容是正常的，配置文件一旦保存将无法再被看到。
 </br>
 
-### 保持最新代码
-随着职校家园的更新，自动打卡可能会在某个版本后失效，开发者会及时更新代码，但你Fork的代码并无法保证与主分支（我的代码）实时同步，此时需要手动同步代码，需要注意的是Github不会有任何通知告诉你代码过时或有新版发布，为此，你可以扫描下方二维码关注公众号，当有重要更新或调整时会在公众号发文提醒。
-
-手动同步代码方法：
-![微信截图_20221130142844.png](https://tc.xuanran.cc/2022/11/30/1dad103cbcd0a.png)
-
-公众号：
-![e87a1043ea8f4fada3bb99ba8e35767.jpg](https://tc.xuanran.cc/2022/12/02/d1b00d4d20886.jpg)
-
-
-
-
 
 </br></br>
 最后，帮我点下仓库的小星星，Thanks.
+有问题可以关注“吾有一站”公众号或我的论坛http://liuxuyang.cn联系我
 
 😀😀😀😀😀
